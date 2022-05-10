@@ -1,8 +1,16 @@
 import React from 'react'
+import styles from './Header.module.scss'
+import className from 'classnames/bind'
+
+const cx = className.bind(styles)
 
 function Header() {
   return (
-    <div>Header</div>
+    <header className={cx('wrapper')}>
+      <div className={cx('inner')}>
+
+      </div>
+    </header>
   )
 }
 
