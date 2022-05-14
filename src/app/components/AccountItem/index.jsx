@@ -1,13 +1,14 @@
 import classNames from 'classnames/bind';
 import styles from './AccountItem.module.scss';
 import { CheckCircle } from '@mui/icons-material';
+import Image from '@/app/components/Image';
 
 const cx = classNames.bind(styles);
 
 function AccountItem() {
     return (
         <div className={cx('wrapper')}>
-            <img 
+            <Image 
             className={cx('avatar')} 
             src="https://i.pinimg.com/564x/74/1a/6a/741a6a7c426f116e995c99acc9629c21.jpg" 
             alt="Khang"/>
