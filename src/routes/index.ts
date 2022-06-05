@@ -20,7 +20,7 @@ const publicRoutes = [
         layout: DefaultLayout
     },
     {
-        path: '/profile',
+        path: '/@:nickname',
         component: ProfilePage,
         layout: DefaultLayout
     },

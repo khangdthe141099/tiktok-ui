@@ -45,6 +45,7 @@ function Menu(props: initProps) {
 
   return (
     <Tippy
+          hideOnClick={false} //Never hide tippy when click in the outside
           interactive
           delay={[0, 500]}
           placement='bottom-end'
